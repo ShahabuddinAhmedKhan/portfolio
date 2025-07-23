@@ -31,12 +31,12 @@ const SkillDataProvider = ({ src,  index }: Props) => {
             animate={inView ? "visible" : "hidden"}
             custom={index}
             transition={{ delay: index * animationDelay }}
-            className="relative w-[30px] sm:w-[50px] md:w-[65px] lg:w-[90px] xl:w-[120px] aspect-square"
+            className="relative w-[25px] sm:w-[50px] md:w-[65px] lg:w-[90px] xl:w-[120px] aspect-square"
         >
             <Image
                 src={src}
                 fill
-                className="object-contain"
+                className="object-contain bg-transparent"
                 alt='skill image'
                 sizes="(max-width: 768px) 100vw, 50vw"
             />

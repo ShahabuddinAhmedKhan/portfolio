@@ -2,8 +2,6 @@
 import React from 'react';
 import { motion } from "framer-motion"
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion';
-import { BoltIcon, SparklesIcon } from '@heroicons/react/24/solid';
-import Image from 'next/image';
 import Lottie from 'lottie-react';
 import boy from "../../public/spaceboy.json"
 import { ImDownload2 } from 'react-icons/im';
@@ -18,13 +16,13 @@ const HeroContent = () => {
             <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
                 <motion.div
                     variants={slideInFromTop}
-                    className='Welcome-box py-[15px] px-[4px] border border-[#7042f88b] opacity-[0.9]'>
-                    <BoltIcon className='text-[#b49bff] mr-[10px] h-5 w-5'></BoltIcon>
-                    <h1 className='Welcome-text text-[23px]'>Shahabuddin Ahmed Khan</h1>
+                    className='Welcome-box py-[15px]  border border-[#7042f88b] opacity-[0.9]'>
+                    
+                    <h1 className='Welcome-text text-[23px] px-5'>Shahabuddin Ahmed Khan</h1>
 
                 </motion.div>
                 <motion.div variants={slideInFromLeft(0.5)}
-                    className='flex flex-col gap-6 mt-6 2xl:text-7xl xl:text-5xl lg:text-6xl md:text-4xl sm:text-3xl  text-2xl   font-bold text-white max-w-[1000px] w-auto h-auto'
+                    className='flex flex-col gap-6 mt-6 2xl:text-7xl lg:text-6xl text-5xl    font-bold text-white max-w-[1000px] w-auto h-auto'
                 >
                     <span>
                         Brewing
@@ -35,7 +33,7 @@ const HeroContent = () => {
                 </motion.div>
                 <motion.p
                     variants={slideInFromLeft(0.8)}
-                    className='text-xs sm:text-sm lg:text-lg text-gray-400 my-5 max-w-[600px]'>
+                    className='text-xl lg:text-lg text-gray-400 my-5 max-w-[600px]'>
                     I’m a Computer Science and Engineering graduate from BRAC University with a solid foundation in both frontend and backend development. I’m passionate about building smooth, responsive web applications and exploring innovative technologies. As an AI/ML enthusiast, I’m constantly learning and experimenting with intelligent systems, and I’m eager to collaborate on projects that push the boundaries of what tech can do.
 
                 </motion.p>
@@ -53,9 +51,9 @@ const HeroContent = () => {
             </div>
             <motion.div
                 variants={slideInFromRight(0.8)}
-                className='flex w-full h-full justify-end items-center     '
+                className='flex w-full h-full justify-end items-center    '
             >
-                <Lottie animationData={boy} loop={true} className="max-w-[500px] py-10 text-center text-white cursor-pointer rounded-lg hover:scale-105 transition  justify-end hidden sm:block" />
+                <Lottie animationData={boy} loop={true} className="max-w-[500px] py-10 text-center text-white cursor-pointer rounded-lg hover:scale-105 transition  justify-end hidden sm:block opacity-75 " />
 
             </motion.div>
 

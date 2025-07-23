@@ -2,7 +2,6 @@ import {
     Backend_skill,
     Frontend_skill,
     Full_stack,
-    Other_skill,
     Skill_data,
 } from "@/constants";
 import React from "react";
@@ -15,7 +14,7 @@ const Skills = () => {
     return (
         <section
             id="skills"
-            className="flex flex-col items-center justify-center gap-3 min-h-screen w-full relative overflow-hidden pb-80 py-20 mt-10"
+            className="flex flex-col items-center justify-center gap-3 min-h-screen w-full relative overflow-hidden pb-80 py-20 mt-10 z-40"
         //   style={{ transform: "scale(0.9)" }}
         >
             <SkillText />
@@ -24,7 +23,7 @@ const Skills = () => {
                 {Skill_data.map((image, index) => (
                     <SkillDataProvider
                         key={index}
-                        src={image.Image}
+                        src={image?.Image}
                         
                         index={index}
                     />
