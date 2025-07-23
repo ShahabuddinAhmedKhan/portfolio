@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
+import Head from "next/head";
 
 
 const geistSans = Geist({
@@ -30,6 +31,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="/logo2.png" type="image/png" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#07010c] overflow-y-scroll overflow-x-hidden`}
       >
