@@ -79,12 +79,14 @@ const Skills = () => {
                 <div className="w-full h-full z-[-10] opacity-30 absolute top-30 sm:top-25 left-0 flex items-center justify-center bg-cover">
                     <video
                         className="w-full h-full"
-                        preload="false"
+                        preload="auto"
                         playsInline
                         loop
+                        
                         muted
+                        
                         autoPlay
-                        src="/skills.mp4"
+                        src="https://res.cloudinary.com/dd3ln5wij/video/upload/br_2452k,vc_h264/v1753293587/skills_wrls5d.mp4"
                     />
                 </div>
             </div>
