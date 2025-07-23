@@ -14,8 +14,8 @@ interface Props {
 
 const ResearchCard = ({ src, title, description,  git }: Props) => {
     return (
-        <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] h-full flex flex-row-reverse items-center">
-            <div className="w-80 p-10 ">
+        <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] h-full flex flex-col sm:flex-row-reverse items-center">
+            <div className="w-80 sm:p-10  py-5 ">
                 <Image
                     src={src}
                     alt={title}

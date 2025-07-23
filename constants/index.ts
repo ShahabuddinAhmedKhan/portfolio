@@ -53,12 +53,7 @@ export const Skill_data = [
     //   width: 80,
     //   height: 80,
     // },
-    {
-      skill_name: "Scikit-Learn",
-      Image: "/scikit-learn.png",
-      width: 90,
-      height: 90,
-    },
+    
     {
       skill_name: "PyTorch",
       Image: "/PyTorch.png",
@@ -70,6 +65,12 @@ export const Skill_data = [
       Image: "/Matplotlib.png",
       width: 80,
       height: 80,
+    },
+    {
+      skill_name: "Scikit-Learn",
+      Image: "/scikit-learn.png",
+      width: 120,
+      height: 120,
     },
 
     {
