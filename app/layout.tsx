@@ -17,7 +17,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Shahabuddin Ahmed Khan Portfolio",
-  description: "My ZEUS themed portfolio",
+  description: "Aim high they say, so space it is then",
+  icons: {
+    icon: "/logo2.png",
+  },
 };
 
 export default function RootLayout({
