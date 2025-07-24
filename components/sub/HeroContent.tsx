@@ -17,8 +17,8 @@ const HeroContent = () => {
                 <motion.div
                     variants={slideInFromTop}
                     className='Welcome-box py-[15px]  border border-[#7042f88b] opacity-[0.9]'>
-                    
-                    <h1 className='Welcome-text text-lg sm:text-[23px] px-5'>Shahabuddin Ahmed Khan</h1>
+
+                    <h1 className='Welcome-text text-[19.5px] sm:text-[23px] px-5'>Shahabuddin Ahmed Khan</h1>
 
                 </motion.div>
                 <motion.div variants={slideInFromLeft(0.5)}
@@ -37,15 +37,17 @@ const HeroContent = () => {
                     I’m a Computer Science and Engineering graduate from BRAC University with a solid foundation in both frontend and backend development. I’m passionate about building smooth, responsive web applications and exploring innovative technologies. As an AI/ML enthusiast, I’m constantly learning and experimenting with intelligent systems, and I’m eager to collaborate on projects that push the boundaries of what tech can do.
 
                 </motion.p>
-                <motion.a
-                    variants={slideInFromLeft(1)}
-                    href="/Shahabuddin Ahmed Khan Resume.pdf"
-                    download
-                    className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] flex justify-center gap-5 items-center"
-                >
-                    <ImDownload2 />
-                    Resume
-                </motion.a>
+                <div >
+                    <motion.a
+                        variants={slideInFromLeft(1)}
+                        href="/Shahabuddin Ahmed Khan Resume.pdf"
+                        download
+                        className="py-2 button-primary text-center text-white cursor-pointer rounded-lg sm:max-w-[200px] flex justify-center gap-5 items-center"
+                    >
+                        <ImDownload2 />
+                        Resume
+                    </motion.a>
+                </div>
 
 
             </div>
