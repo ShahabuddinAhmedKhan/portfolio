@@ -18,7 +18,7 @@ const HeroContent = () => {
                     variants={slideInFromTop}
                     className='Welcome-box py-[15px]  border border-[#7042f88b] opacity-[0.9]'>
                     
-                    <h1 className='Welcome-text text-[23px] px-5'>Shahabuddin Ahmed Khan</h1>
+                    <h1 className='Welcome-text text-lg sm:text-[23px] px-5'>Shahabuddin Ahmed Khan</h1>
 
                 </motion.div>
                 <motion.div variants={slideInFromLeft(0.5)}
@@ -33,7 +33,7 @@ const HeroContent = () => {
                 </motion.div>
                 <motion.p
                     variants={slideInFromLeft(0.8)}
-                    className='text-xl lg:text-lg text-gray-400 my-5 max-w-[600px]'>
+                    className='text-[14px] sm:text-xl lg:text-lg text-gray-400 my-5 max-w-[600px]'>
                     I’m a Computer Science and Engineering graduate from BRAC University with a solid foundation in both frontend and backend development. I’m passionate about building smooth, responsive web applications and exploring innovative technologies. As an AI/ML enthusiast, I’m constantly learning and experimenting with intelligent systems, and I’m eager to collaborate on projects that push the boundaries of what tech can do.
 
                 </motion.p>
